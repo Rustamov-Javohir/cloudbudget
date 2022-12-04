@@ -541,6 +541,75 @@ a {
 /* APP SECTION END */
 
 /* CONTACT US SECTION START */
+.contact_us-section {
+    padding-top: 117px;
+    padding-bottom: 78px;
+}
+
+.contact_us-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us-start {
+    width: 445px;
+}
+
+.contact_us-start__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--overview-text-color);
+    margin-bottom: 45px;
+}
+
+.contact_us-section__desc {
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--overview-text-color);
+}
+
+.contact_us-end input {
+    width: 100%;
+    padding: 21px 0 20px 31px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.input__wrapper {
+    /* width: 105%; */
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.input_first-name {
+    margin-right: 30px;
+}
+
+.input_phone-num__wrapper {
+    margin-bottom: 24px;
+}
+
+.input_select-service__wrapper {
+    margin-bottom: 27px;
+}
+.input_select-service{
+    background-image: url('../images/icons/ChevronDown\(E70D\).svg');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.btn-submit {
+    color: var(--hero-text-color);
+    font-size: 14px;
+    line-height: 17px;
+    padding: 17px 34px 16px;
+    border: none;
+    background-color: var(--card-btn-color);
+    border: 1.5px solid var(--card-btn-color);
+    border-radius: 6px;
+    cursor: pointer;
+}
 
 /* CONTACT US SECTION END */
 
