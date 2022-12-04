@@ -410,11 +410,12 @@ a {
 /* FEATURES SECTION END */
 
 /* TECHNOLOGY SECTION START */
-.tech-section{
+.tech-section {
     padding-top: 63px;
     padding-bottom: 104px;
     background-color: var(--hero-text-color);
 }
+
 .tech-section__title {
     font-weight: 600;
     font-size: 36px;
@@ -462,9 +463,85 @@ a {
     line-height: 14px;
     text-align: center;
 }
-.card-csv img{
+
+.card-csv img {
     width: 55px;
 }
+
 /* TECHNOLOGY SECTION END */
+/* APP SECTION START */
+.app_download-section {
+    padding-top: 94px;
+    padding-bottom: 95px;
+    background-color: var(--card-btn-color);
+}
+
+.app-download-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-section__start {
+    width: 445px;
+    color: var(--hero-text-color);
+}
+
+.app-section__title {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.app-section__desc {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.app-download__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.app-download__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 23px;
+    background-image: url('../images/icons/ion-logo-google-playstore.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app-download__link:nth-child(2) {
+    background-image: url('../images/icons/ion-logo-apple-appstore.svg');
+}
+
+.app-download__link:last-child {
+    margin-right: 0;
+    background-image: url('../images/icons/simple-icons_windows.svg');
+}
+
+.slider {
+    width: 533px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left, right;
+}
+
+.slider-img {
+    width: 445px;
+    border-radius: 15px;
+}
+
+/* APP SECTION END */
+
+/* CONTACT US SECTION START */
+
+/* CONTACT US SECTION END */
 
 /*********MAIN STYLES END  ***********/
