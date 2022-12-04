@@ -574,6 +574,7 @@ a {
     padding: 21px 0 20px 31px;
     border: 1px solid #333333;
     border-radius: 6px;
+    outline: none;
 }
 
 .input__wrapper {
@@ -593,7 +594,8 @@ a {
 .input_select-service__wrapper {
     margin-bottom: 27px;
 }
-.input_select-service{
+
+.input_select-service {
     background-image: url('../images/icons/ChevronDown\(E70D\).svg');
     background-repeat: no-repeat;
     background-position: 95% center;
@@ -609,8 +611,63 @@ a {
     border: 1.5px solid var(--card-btn-color);
     border-radius: 6px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 /* CONTACT US SECTION END */
+
+/* FOOTER SECTION START */
+.site-footer {
+    padding-top: 85px;
+    padding-bottom: 86px;
+    background-color: var(--overview-bg-color);
+}
+.site-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer__list{
+    width: 259px;
+}
+
+.site-footer__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--card-title-color);
+    margin-bottom: 33px;
+}
+
+.site-footer__item {
+    font-size: 12px;
+    line-height: 160%;
+    color: var(--overview-text-color);
+}
+
+.adress .site-footer__item:nth-child(2){
+    margin-bottom: 141px;
+    width: 145px;
+}
+
+.services .site-footer__item {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.services .site-footer__item:last-child{
+    margin-bottom: 0;
+}
+.get_in_touch .site-footer__item{
+    margin-bottom: 11px;
+}
+
+.logo_wrapper img{
+    margin-right: 12px;
+}
+
+.logo_wrapper img:last-child{
+    margin-right: 0;
+}
+
+/* FOOTER SECTION END */
 
 /*********MAIN STYLES END  ***********/
